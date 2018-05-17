@@ -1,0 +1,602 @@
+{
+  "talks": [
+    {
+      "talk_title": "Making Games With ReactJS",
+      "url_friendly_talk_title": "making-games-with-reactjs",
+      "talk_description": "ReactJS has fundamentally changed how we think about building interfaces. Using the same tools, we can bring this thinking to SVG, WebGL, and beyond. Makes you wonder \u2013 could we build games using ReactJS?\r\n\r\nIn this talk, we'll build a platform game, using ReactJS.\r\n\r\nSome of the topics we'll cover include:\r\n\r\n* Master the game loop\r\n* Handle player input\r\n* Implement collision detection, gravity, ladders, and stairs\r\n* Work with camera locking, mobs, and health\r\n* Manage game inventory\r\n* Make game levels",
+      "type": "Workshop",
+      "start_date": "2018-06-07T09:30:00+02:00",
+      "duration": 360,
+      "stub": "f8407",
+      "average_rating": 0,
+      "comments_enabled": 1,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 1,
+      "speakers": [
+        {
+          "speaker_name": "Christopher Pitt",
+          "speaker_uri": "https:\/\/api.joind.in\/v2.1\/users\/24899"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24184",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24184?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/f8407",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24184\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24184\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24184\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24184\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24184\/speakers"
+    },
+    {
+      "talk_title": "Best practices for crafting high quality PHP apps",
+      "url_friendly_talk_title": "best-practices-for-crafting-high-quality-php-apps",
+      "talk_description": "This prototype works, but it\u2019s not pretty, and now it\u2019s in production. That legacy application really needs some TLC. Where do we start? When creating long lived applications, it\u2019s imperative to focus on good practices. The solution is to improve the whole development life cycle; from planning, better coding and testing, to automation, peer review and more. In this tutorial, we\u2019ll take a deep dive into each of these areas, looking at how we can make positive, actionable change in our workflow.",
+      "type": "Workshop",
+      "start_date": "2018-06-07T09:30:00+02:00",
+      "duration": 360,
+      "stub": "3d1e8",
+      "average_rating": 0,
+      "comments_enabled": 1,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 2,
+      "speakers": [
+        {
+          "speaker_name": "James Titcumb",
+          "speaker_uri": "https:\/\/api.joind.in\/v2.1\/users\/22381"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24185",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24185?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/3d1e8",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24185\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24185\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24185\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24185\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24185\/speakers"
+    },
+    {
+      "talk_title": "Hack this workshop!",
+      "url_friendly_talk_title": "hack-this-workshop",
+      "talk_description": "In this workshop we will take a look at common security failings from a new perspective: that of the hacker. You'll be provided with a set of different sites each exhibiting a different security flaw, the challenge will be to find and exploit it and in doing so learn how to protect your own sites.\r\n\r\nAll the sites will be run locally inside docker containers so don't worry about breaking any laws! Obviously this means that you will need to bring a laptop which is capable of running docker containers in order to participate in this workshop.",
+      "type": "Workshop",
+      "start_date": "2018-06-07T09:30:00+02:00",
+      "duration": 180,
+      "stub": "8811b",
+      "average_rating": 0,
+      "comments_enabled": 1,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 0,
+      "speakers": [
+        {
+          "speaker_name": "Chris Riley"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24186",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24186?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/8811b",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24186\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24186\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24186\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24186\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24186\/speakers"
+    },
+    {
+      "talk_title": "Building Autonomous Services",
+      "url_friendly_talk_title": "building-autonomous-services",
+      "talk_description": "In this workshop we'll dive into the topic of Autonomous Service development, with a sandbox project containing several interdependent services. These projects send messages to each other, and they call each other to retrieve data. In other words, they're not autonomous at all. We'll figure out some ways in which we can invert dependencies and leverage a messaging solution to achieve autonomy after all.\r\n\r\nIn a relatively short period you\u2019ll get acquainted with the basics of asynchronous integration, CQRS, event sourcing and integrating bounded contexts.",
+      "type": "Workshop",
+      "start_date": "2018-06-07T09:30:00+02:00",
+      "duration": 360,
+      "stub": "44650",
+      "average_rating": 0,
+      "comments_enabled": 1,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 0,
+      "speakers": [
+        {
+          "speaker_name": "Matthias Noback",
+          "speaker_uri": "https:\/\/api.joind.in\/v2.1\/users\/18616"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24187",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24187?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/44650",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24187\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24187\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24187\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24187\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24187\/speakers"
+    },
+    {
+      "talk_title": "Getting started with Symfony 4 and Flex",
+      "url_friendly_talk_title": "getting-started-with-symfony-4-and-flex",
+      "talk_description": "With the release of Symfony4, both the architecture and the developer workflow got a major overhaul, mostly by the introduction of Flex as a way to bootstrap your application. The new changes focus on enabling easier cloud deployments & less manual configuration, while supporting both lean microservice setups as well as monolithic applications.\r\n\r\nDuring this workshop, we will create microservice-style apps using Flex to get a feel for how the new bootstrapping mechanism works touching all major new features:\r\n- Project setup\r\n- Use of the recipes and contrib recipes repositories\r\n- Bundle-less application architecture\r\n- Dependency Injection improvements since 3.3\r\n\r\nTo get the most out of this workshop you should already be familiar with Symfony 2 or 3.",
+      "type": "Workshop",
+      "start_date": "2018-06-07T09:30:00+02:00",
+      "duration": 180,
+      "stub": "93a0b",
+      "average_rating": 0,
+      "comments_enabled": 1,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 0,
+      "speakers": [
+        {
+          "speaker_name": "Denis Brumann",
+          "speaker_uri": "https:\/\/api.joind.in\/v2.1\/users\/28766"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24188",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24188?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/93a0b",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24188\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24188\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24188\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24188\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24188\/speakers"
+    },
+    {
+      "talk_title": "Your app lives on a network - networking for PHP devs",
+      "url_friendly_talk_title": "your-app-lives-on-a-network---networking-for-php-devs",
+      "talk_description": "As PHP developers, our job is to build web applications. But how can we build applications that rely on networking if we don't know how these networks and the big network that connects them all (this thing called the Internet) actually work ?\r\nWe'll walk through the basics of networking, before diving into all the essentials every PHP developer should know, from TCP\/UDP over IP addressing (IPv4\/6), source\/destination ports, sockets, DNS, switching, firewalling and even more advanced protocols such as OSPF, VRRP and BGP.\r\n\r\nPrepare for an eye-opener when you realize how much a typical app relies on all of these (and many more) working flawlessly... and how you can prepare your app for failure in the chain.",
+      "type": "Workshop",
+      "start_date": "2018-06-07T09:30:00+02:00",
+      "duration": 180,
+      "stub": "e5696",
+      "average_rating": 0,
+      "comments_enabled": 1,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 1,
+      "speakers": [
+        {
+          "speaker_name": "Wim Godden",
+          "speaker_uri": "https:\/\/api.joind.in\/v2.1\/users\/416"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24189",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24189?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/e5696",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24189\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24189\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24189\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24189\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24189\/speakers"
+    },
+    {
+      "talk_title": "From Requirements to Executable Specifications - An Outside-In Approach to Building an Application",
+      "url_friendly_talk_title": "from-requirements-to-executable-specifications---an-outside-in-approach-to-building-an-application",
+      "talk_description": "Whether you are curious about how BDD can be used a discipline for building software or have tried to use BDD before but instead got bogged down in a tiresome and painful exercise in browser automation - this workshop will help you grasp the real value of this methodology and give you the conceptual tools necessary to be able to start practicing this at your own company.\r\n\r\nSplitting up into groups of three, we will build a Delivery Booking System from a list of amorphous requirements. In the first part of the workshop, we will gradually flesh out examples of how the system works using a technique known as Example Mapping. From these we\u2019ll collaboratively write executable specifications (scenarios) in Gherkin. Writing scenarios and developing a \u201cubiquitous\u201d language can be the most time consuming part of the process albeit the one in which most of the hard work is done.\r\n\r\nThe second part of the workshop will focus on driving the actual application code from the scenarios and automating them. We will use some parts of the Symfony framework for the app itself and a PHP tool called Behat for executing the scenarios. This part of the workshop will also introduce some aspects of strategic domain modelling. Most of the application will be automated at the \u201cdomain level\u201d, and given enough time, we will also automate at the UI and\/or browser level.",
+      "type": "Workshop",
+      "start_date": "2018-06-07T09:30:00+02:00",
+      "duration": 360,
+      "stub": "192d7",
+      "average_rating": 0,
+      "comments_enabled": 1,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 1,
+      "speakers": [
+        {
+          "speaker_name": "Jon Acker"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24190",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24190?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/192d7",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24190\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24190\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24190\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24190\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24190\/speakers"
+    },
+    {
+      "talk_title": "The Code Review Workshop",
+      "url_friendly_talk_title": "the-code-review-workshop",
+      "talk_description": "To improve your code base, you run an audit. Now, with so many diagnostics, the situations appears to be overwelhming. If you have a mere million lines of code, it may display thousands of errors, in various orders. And with that, the market leavs no time to reduce technical debt before the next feature : we'll do it when we have time, right? WRONG! Code quality starts with a daily code review.\r\n\r\nLearn how to navigate in the results of code audits that actually find more issues than you want. During this workshop, we'll check PHP classic traps, architecture errors, security vulnerabilities and logical bugs. We'll see how to detect those bugs, how they happen, and how to prepare a fix (or not). By the end, you'll be able to set up your own coding reference, the one that reflect your style of coding in your projects.",
+      "type": "Workshop",
+      "start_date": "2018-06-07T09:30:00+02:00",
+      "duration": 180,
+      "stub": "d61da",
+      "average_rating": 0,
+      "comments_enabled": 1,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 0,
+      "speakers": [
+        {
+          "speaker_name": "Damien Seguy"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24191",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24191?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/d61da",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24191\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24191\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24191\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24191\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24191\/speakers"
+    },
+    {
+      "talk_title": "GraphQL Server in PHP with Symfony Flex",
+      "url_friendly_talk_title": "graphql-server-in-php-with-symfony-flex",
+      "talk_description": "\"GraphQL represents a massive leap forward for API development.\" says GitHub. What can we do with it in PHP?\r\n\r\nThis workshop will show you from the basic setup of your GraphQL Server with Symfony, possibly teach you some tricks on Symfony Flex and then start exploring a lot of the powers of GraphQL, handling a more complex schema, treating performance, security and versioning (Schema deprecation), if in time we'll also check some cool tech using promises to fetch data and get a grasp on how to avoid the n+1 issue on APIs.\r\nIf you're an API developer this workshop might change your way of thinking about it!",
+      "type": "Workshop",
+      "start_date": "2018-06-07T13:45:00+02:00",
+      "duration": 180,
+      "stub": "501d0",
+      "average_rating": 0,
+      "comments_enabled": 1,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 0,
+      "speakers": [
+        {
+          "speaker_name": "Renato Mendes Figueiredo",
+          "speaker_uri": "https:\/\/api.joind.in\/v2.1\/users\/23348"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24192",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24192?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/501d0",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24192\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24192\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24192\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24192\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24192\/speakers"
+    },
+    {
+      "talk_title": "Symfony under the hood",
+      "url_friendly_talk_title": "symfony-under-the-hood",
+      "talk_description": "Symfony has a wide userbase today. Most developers working with Symfony on a daily basis have configured their own services, are fluent in configuring routing and validators.\r\n\r\nBut what is actually going on under the hood? What happens when the configuration is parsed? What is a cache warmup? What happens to a request before hitting your controller? How does the HttpKernel work? In this workshop, we'll use some features of Symfony that may be less well known to users of the Framework, but that can be a great benefit - we'll build compiler passes, cache warmers, add custom authorization features, and more.",
+      "type": "Workshop",
+      "start_date": "2018-06-07T13:45:00+02:00",
+      "duration": 180,
+      "stub": "4e052",
+      "average_rating": 0,
+      "comments_enabled": 1,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 0,
+      "speakers": [
+        {
+          "speaker_name": "Andreas Hucks"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24193",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24193?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/4e052",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24193\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24193\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24193\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24193\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24193\/speakers"
+    },
+    {
+      "talk_title": "Browser Automation Testing with Headless Chrome",
+      "url_friendly_talk_title": "browser-automation-testing-with-headless-chrome",
+      "talk_description": "Developers are unit testing, QA staff is integration testing, Users are acceptance testing. Do you really need to add browser automated tests too? Have you ever experienced side effects of upgrading third party components or server configuration changes? Do you have trouble testing your entire site to ensure bugs weren't introduced?\r\n\r\nIf so, you may need browser automation testing. In this tutorial we will combine Puppeteer, Mocha, and Chai to automate your browser and test all your site's components. This will lead you to deliver your updates reliably and catch bugs before they get deployed.",
+      "type": "Workshop",
+      "start_date": "2018-06-07T13:45:00+02:00",
+      "duration": 180,
+      "stub": "e62ac",
+      "average_rating": 0,
+      "comments_enabled": 1,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 0,
+      "speakers": [
+        {
+          "speaker_name": "Derek Binkley",
+          "speaker_uri": "https:\/\/api.joind.in\/v2.1\/users\/27893"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24194",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24194?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/e62ac",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24194\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24194\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24194\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24194\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24194\/speakers"
+    },
+    {
+      "talk_title": "Developing your soft skills",
+      "url_friendly_talk_title": "developing-your-soft-skills",
+      "talk_description": "Soft skills are getting more and more important on the workfloor. Developers however forget to practice these a lot and often do not even know how to practice these.\r\nWith this workshop we will go over some exercises and drills each of us can do to improve our soft skills.\r\nNot only theoretically but also in practice. Active participation required!",
+      "type": "Workshop",
+      "start_date": "2018-06-07T13:45:00+02:00",
+      "duration": 180,
+      "stub": "576ef",
+      "average_rating": 0,
+      "comments_enabled": 1,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 0,
+      "speakers": [
+        {
+          "speaker_name": "Kenneth Schabrechts",
+          "speaker_uri": "https:\/\/api.joind.in\/v2.1\/users\/23859"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24195",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24195?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/576ef",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24195\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24195\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24195\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24195\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24195\/speakers"
+    },
+    {
+      "talk_title": "Keynote : The New Revolution",
+      "url_friendly_talk_title": "keynote--the-new-revolution",
+      "talk_description": "In 1969, researchers at Stanford and UCLA collaborated to transmit the first message over what would become the Internet. In just five decades, the repercussions of that moment have echoed through every atom of society. The world is evolving at a pace unprecedented in human history as we use technology to change how we think, learn, communicate, and even how we understand ourselves. Let\u2019s take an inside look at how the fusion of media and technology is reinventing human interaction and the role that we, as engineers and technologists, must play in this important process.",
+      "type": "Keynote",
+      "start_date": "2018-06-08T09:30:00+02:00",
+      "duration": 60,
+      "stub": "602d4",
+      "average_rating": 0,
+      "comments_enabled": 0,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 2,
+      "speakers": [
+        {
+          "speaker_name": "Samantha Qui\u00f1ones"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24196",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24196?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/602d4",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24196\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24196\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24196\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24196\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24196\/speakers"
+    },
+    {
+      "talk_title": "Behat for characterisation on tests",
+      "url_friendly_talk_title": "behat-for-characterisation-on-tests",
+      "talk_description": "Once an API ships it doesn't matter how it should behave - how it actually behaves is the important part. Users depend on the existing behaviour and we need a way to ensure that it doesn't change\r\n\r\nBehat is a tool that was built to help design software, but it\u2019s actually a great tool for capturing existing behaviour too.\r\n\r\nWe\u2019ve used these tools to gain confidence to refactor 5+ year old apps by capturing the existing behaviour before making changes. I want to share the secrets we learned with you",
+      "type": "Talk",
+      "start_date": "2018-06-08T10:45:00+02:00",
+      "duration": 45,
+      "stub": "b7df0",
+      "average_rating": 0,
+      "comments_enabled": 0,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 2,
+      "speakers": [
+        {
+          "speaker_name": "Michael Heap"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24197",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24197?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/b7df0",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24197\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24197\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24197\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24197\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24197\/speakers"
+    },
+    {
+      "talk_title": "Progressive Web Apps",
+      "url_friendly_talk_title": "progressive-web-apps",
+      "talk_description": "There is a lot of talk about Progressive Web Apps at the moment. It is a hot topic in the JavaScript community.\r\n\r\nIn this talk, we will briefly explore what a PWA is and how to build one. We will look at the benefits of PWA's and more importantly their limitations.\r\n\r\nWe then look a bit deeper at the technologies behind PWA's such as Service Workers, in particular we will look at the mechanics behind Service Workers, and how they will affect your back-end builds.\r\n\r\nFinally, we will look at offline development, the offline first life-cycle and the tools and technologies needed to start building offline applications. Comparing offline storage mechanisms, and their limitations.\r\n\r\nThis talk is great for anyone building web-based applications, in any language, or anyone wanting to learn more about PWA's and offline development",
+      "type": "Talk",
+      "start_date": "2018-06-08T10:45:00+02:00",
+      "duration": 45,
+      "stub": "54065",
+      "average_rating": 0,
+      "comments_enabled": 0,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 0,
+      "speakers": [
+        {
+          "speaker_name": "Mike Oram",
+          "speaker_uri": "https:\/\/api.joind.in\/v2.1\/users\/30387"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24198",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24198?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/54065",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24198\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24198\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24198\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24198\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24198\/speakers"
+    },
+    {
+      "talk_title": "Application metrics with Prometheus",
+      "url_friendly_talk_title": "application-metrics-with-prometheus",
+      "talk_description": "We all know not to poke at alien life forms in another planet, right? But what about metrics, do you know how to pick, measure and draw conclusions from them? In this talk we will cover Service Level Indicators (SLI), Objectives (SLO), and how to use Prometheus, an open-source system monitoring and alert platform, to measure and make sense of them. Let's get back to some real science.",
+      "type": "Talk",
+      "start_date": "2018-06-08T10:45:00+02:00",
+      "duration": 45,
+      "stub": "9a87e",
+      "average_rating": 0,
+      "comments_enabled": 0,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 1,
+      "speakers": [
+        {
+          "speaker_name": "Rafael Dohms"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24199",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24199?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/9a87e",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24199\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24199\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24199\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24199\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24199\/speakers"
+    },
+    {
+      "talk_title": "The Creative Developer",
+      "url_friendly_talk_title": "the-creative-developer",
+      "talk_description": "Imagine you have to do a simple REST API including 3 endpoints, but in one day, is it ok? Such a small question but with many things into it, it's a cognitive trap, you are evaluating how much you can achieve in a day, your experience with APIs, the tools, the risks and much more things. Your brain has to work a lot to give certain answers, many times without considering all factors. This talk introduces you to the cognitive biases world, exemplified by a developer's life, creating awareness you could be able to avoid many issues in your career!",
+      "type": "Talk",
+      "start_date": "2018-06-08T10:45:00+02:00",
+      "duration": 45,
+      "stub": "4775a",
+      "average_rating": 0,
+      "comments_enabled": 0,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 0,
+      "speakers": [
+        {
+          "speaker_name": "Renato Mendes Figueiredo",
+          "speaker_uri": "https:\/\/api.joind.in\/v2.1\/users\/23348"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24200",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24200?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/4775a",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24200\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24200\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24200\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24200\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24200\/speakers"
+    },
+    {
+      "talk_title": "Se7en Deployment Sins",
+      "url_friendly_talk_title": "se7en-deployment-sins",
+      "talk_description": "Do you have something to confess? Or are you still in denial \u2014 knowing that you're doing something wrong, but you cannot say for sure what it is? In this talk, we'll go through our deployment sins and how to avoid them:\r\n\r\n* Gluttony: Adding all the dependencies \u2014 both in size and number.\r\n* Greed: Yes, I want to use the biggest and slowest application server possible.\r\n* Sloth: Continuous Deployment or Delivery \u2014 who would need that?!\r\n* Lust: Of course I'm using containers, microservices, and every latest trend for every project!\r\n* Pride: Once something is in production it's purely an ops problem.\r\n* Envy: Why should I rely on an external library, when I can lovingly handcraft it all myself?\r\n* Wrath: Logging and monitoring are for the faint of heart!",
+      "type": "Talk",
+      "start_date": "2018-06-08T10:45:00+02:00",
+      "duration": 45,
+      "stub": "60cf6",
+      "average_rating": 0,
+      "comments_enabled": 0,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 0,
+      "speakers": [
+        {
+          "speaker_name": "Philipp Krenn",
+          "speaker_uri": "https:\/\/api.joind.in\/v2.1\/users\/27294"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24201",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24201?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/60cf6",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24201\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24201\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24201\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24201\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24201\/speakers"
+    },
+    {
+      "talk_title": "Microservices vs The Distributed Monolith",
+      "url_friendly_talk_title": "microservices-vs-the-distributed-monolith",
+      "talk_description": "When faced with a challenging legacy code base, tightly coupled and void of discernible structure: a big ball of mud, it is common to decide to refactor this monolith to a microservice architecture to separate concerns and split the codebase up, however without any clear boundaries you are in danger of creating a distributed big ball of mud.\r\n\r\nYou may recognise the symptoms of a distributed ball of mud: a large unfocused 'common' library shared between multiple services; performance issues as your front end makes calls to multiple back end API's to serve a single request; dependency hell on deployments as you have to release multiple code bases simultaneously and uptime issues as a single microservice going down brings down your entire application.\r\n\r\nIn this talk I'm going to cover some of the common pitfalls you might encounter when building a microservice architecture and show you how to use an event driven architecture to build truly scalable microservices",
+      "type": "Talk",
+      "start_date": "2018-06-08T11:45:00+02:00",
+      "duration": 45,
+      "stub": "ee5b6",
+      "average_rating": 0,
+      "comments_enabled": 0,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 2,
+      "speakers": [
+        {
+          "speaker_name": "Chris Riley"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24202",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24202?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/ee5b6",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24202\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24202\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24202\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24202\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24202\/speakers"
+    },
+    {
+      "talk_title": "Browser APIs: the unknown Super Heroes",
+      "url_friendly_talk_title": "browser-apis-the-unknown-super-heroes",
+      "talk_description": "Still think browsers are only capable of parsing HTML, CSS and JavaScript? Think again!\r\nBrowsers have become much more powerful and contain numerous APIs that can enrich the user experience or are just plain fun.\r\n\r\nThis talk will introduce you to some of them (like battery, speech, audio, bluetooth, ...) and show you how easy it is to unleash their power with JavaScript",
+      "type": "Talk",
+      "start_date": "2018-06-08T11:45:00+02:00",
+      "duration": 45,
+      "stub": "dc44d",
+      "average_rating": 0,
+      "comments_enabled": 0,
+      "comment_count": 0,
+      "starred": false,
+      "starred_count": 1,
+      "speakers": [
+        {
+          "speaker_name": "Rowdy Rabouw",
+          "speaker_uri": "https:\/\/api.joind.in\/v2.1\/users\/17364"
+        }
+      ],
+      "tracks": [],
+      "uri": "https:\/\/api.joind.in\/v2.1\/talks\/24203",
+      "verbose_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24203?verbose=yes",
+      "website_uri": "https:\/\/joind.in\/talk\/dc44d",
+      "starred_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24203\/starred",
+      "tracks_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24203\/tracks",
+      "comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24203\/comments",
+      "verbose_comments_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24203\/comments?verbose=yes",
+      "event_uri": "https:\/\/api.joind.in\/v2.1\/events\/6710",
+      "speakers_uri": "https:\/\/api.joind.in\/v2.1\/talks\/24203\/speakers"
+    }
+  ],
+  "meta": {
+    "count": 20,
+    "total": 72,
+    "this_page": "https:\/\/api.joind.in\/v2.1\/events\/6710\/talks?resultsperpage=20",
+    "next_page": "https:\/\/api.joind.in\/v2.1\/events\/6710\/talks?start=20&resultsperpage=20"
+  }
+}
